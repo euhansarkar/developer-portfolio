@@ -49,13 +49,15 @@ body{
 }
 
 #experience .half-width{
-    box-shadow: 10px 20px 10px;
+    box-shadow: 1px 1px 8px grey;
+    margin: 40px;
+    padding: 12px;
+    border-radius: 10px;
 }
 
 .header{
     background-image: url(/images/top-banner.png);
     background-repeat: no-repeat;
-    margin-bottom: 60px;
 }
 
 .header-2{
@@ -64,6 +66,29 @@ body{
     background-position: right;
 }
 
+.header-3{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-clip: padding-box;
+}
+
 .align-thik-nai{
     padding-top: 100px;
+}
+
+.first{
+    border-left: 10px solid tomato;
+}
+
+.second{
+    border-left: 10px solid blue;
+}
+
+section{
+    margin-bottom: 60px;
+}
+
+footer p{
+    text-align: center;
 }
